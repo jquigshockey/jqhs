@@ -1,0 +1,30 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 20px;
+  }
+
+.markAttendance {
+    background-color: white;
+    padding: 4px;
+    margin: 4px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    
+  }
+
+  .markAttendance:hover{
+    background-color: rgb(140, 7, 173);
+    color: white;
+    border: none;
+    padding: 6px;
+    margin: 4px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+  }
+
+  .rollingForm{
+    overflow: scroll;
+  }
